@@ -14,6 +14,7 @@
         <module>hystrix.dashboard</module>
         <module>turbine</module>
         <module>config-git</module>
+        <module>config-eureka</module>
     </modules>
     <packaging>pom</packaging>
 
