@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: consumer
+  rabbitmq:
+    virtual-host: /
+    username: admin
+    password: admin
+    host: 192.168.3.157
+server:
+  port: 9001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka/
+feign:
+  hystrix:
+    enabled: true

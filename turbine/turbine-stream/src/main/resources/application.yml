@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: turbine-stream
+  rabbitmq:
+    host: 192.168.3.157
+    username: admin
+    password: admin
+    virtual-host: /
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka/
