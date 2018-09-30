@@ -13,6 +13,7 @@
         <module>hystrix-dashboard</module>
         <module>hystrix.dashboard</module>
         <module>turbine</module>
+        <module>config-git</module>
     </modules>
     <packaging>pom</packaging>
 
