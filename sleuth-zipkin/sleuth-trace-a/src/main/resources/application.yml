@@ -1,0 +1,22 @@
+spring:
+  rabbitmq:
+    host: 192.168.3.157
+    username: admin
+    password: admin
+    virtual-host: /
+  application:
+    name: trace-a
+  sleuth:
+    web:
+      client:
+        enabled: true
+    sampler:
+      probability: 1
+  zipkin:
+    base-url: http://localhost:9412/
+server:
+  port: 8080
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka/

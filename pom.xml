@@ -15,6 +15,9 @@
         <module>turbine</module>
         <module>config-git</module>
         <module>config-eureka</module>
+        <module>config-eureka-bus</module>
+        <module>zuul</module>
+        <module>sleuth-zipkin</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -8,7 +8,7 @@ spring:
           uri: https://github.com/Acumes/spring-cloud-study
           search-paths: config-repo
 server:
-  port: 12000
+  port: 12001
 
 eureka:
   client:

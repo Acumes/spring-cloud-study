@@ -3,14 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>config-git</artifactId>
-        <groupId>config.git</groupId>
+        <artifactId>config-eureka-bus</artifactId>
+        <groupId>config.eureka.bus</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>config.server</groupId>
-    <artifactId>config-server</artifactId>
+    <groupId>config.eureka.server.bus</groupId>
+    <artifactId>config-eureka-server-bus</artifactId>
     <packaging>jar</packaging>
 
     <dependencies>
@@ -21,6 +21,14 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-bus</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-stream-binder-rabbit</artifactId>
         </dependency>
     </dependencies>
 
